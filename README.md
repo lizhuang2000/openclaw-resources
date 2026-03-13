@@ -11,10 +11,12 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 - [Official Resources](#official-resources)
 - [Documentation](#documentation)
 - [Tutorials & Guides](#tutorials--guides)
-- [Plugins & Extensions](#plugins--extensions)
+- [Related Projects & Variants](#related-projects--variants)
+- [Skills & Plugins](#skills--plugins)
+- [Memory & Storage](#memory--storage)
+- [Deployment Tools](#deployment-tools)
 - [Community](#community)
 - [Videos](#videos)
-- [Related Projects](#related-projects)
 - [Contributing](#contributing)
 
 ---
@@ -24,10 +26,11 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 | Resource | Description |
 |----------|-------------|
 | [OpenClaw Official Site](https://openclaw.ai) | Main website |
-| [GitHub Repository](https://github.com/openclaw/openclaw) | Source code |
+| [GitHub Repository](https://github.com/openclaw/openclaw) | Source code (307K+ stars) |
 | [Official Documentation](https://docs.openclaw.ai) | Full documentation |
 | [OpenClaw Blog](https://openclaw.ai/blog) | Announcements and updates |
 | [Installation Guide](https://openclaw.im) | Quick install instructions |
+| [ClawHub](https://github.com/openclaw/clawhub) | Skill Directory for OpenClaw |
 
 ---
 
@@ -61,13 +64,90 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 
 ---
 
-## Plugins & Extensions
+## Related Projects & Variants
 
-### Official Plugins
+### Official & High Stars
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 307K+ | Official OpenClaw repository |
+| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 36K+ | 5,400+ skills collection |
+| [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | 24K+ | Community use cases |
+
+### Lightweight Alternatives
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [nanobot](https://github.com/HKUDS/nanobot) | 32K+ | Ultra-lightweight OpenClaw (~4K lines) |
+| [nanoclaw](https://github.com/qwibitai/nanoclaw) | 22K+ | Container-based lightweight alternative |
+| [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 26K+ | Rust-based, privacy-focused |
+| [ironclaw](https://github.com/nearai/ironclaw) | 9K+ | Rust implementation, privacy & security |
+
+### Multi-Agent & Enterprise
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [Clawith](https://github.com/dataelement/Clawith) | 160+ | OpenClaw for Teams |
+| [edict](https://github.com/cft0808/edict) | 8K+ | Multi-Agent Orchestration System (Chinese) |
+| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 5K+ | Multi-agent AI employee team |
+
+### IM/Chat Platform Integrations
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | 42K+ | WeChat integration (Chinese) |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) | 22K+ | Multi-platform IM bot infrastructure |
+| [LangBot](https://github.com/langbot-app/LangBot) | 15K+ | Production-grade IM bot platform |
+| [open-im-server](https://github.com/openimsdk/open-im-server) | 15K+ | IM Chat OpenClaw |
+
+### Desktop & UI
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [AionUi](https://github.com/iOfficeAI/AionUi) | 18K+ | Desktop app for Claude Code, OpenClaw, etc. |
+| [cherry-studio](https://github.com/CherryHQ/cherry-studio) | 41K+ | AI productivity studio |
+| [cc-switch](https://github.com/farion1231/cc-switch) | 27K+ | Cross-platform desktop assistant |
+
+### Legacy Names (Historical)
+
+| Project | Description |
+|---------|-------------|
+| [clawdbot](https://github.com/openclaw/openclaw) | Original name (Nov 2025) |
+| [moltbot](https://github.com/openclaw/openclaw) | Second name (before Jan 2026) |
+
+---
+
+## Skills & Plugins
+
+### Official
 - [openclaw-plugins](https://github.com/openclaw/openclaw-plugins) - Official plugin collection
+- [clawhub](https://github.com/openclaw/clawhub) - Skill Directory
 
-### Community Plugins
-- *Submit a PR to add your plugin here*
+### Community Skills
+- [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - 5,400+ curated skills
+- [obsidian-skills](https://github.com/kepano/obsidian-skills) - Obsidian integration skills
+- [mcp-use](https://github.com/mcp-use/mcp-use) - MCP framework for OpenClaw
+
+---
+
+## Memory & Storage
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [memU](https://github.com/NevaMind-AI/memU) | 12K+ | Memory for 24/7 proactive agents |
+| [MemOS](https://github.com/MemTensor/MemOS) | 6K+ | AI memory OS for Agent systems |
+| [OpenViking](https://github.com/volcengine/OpenViking) | 7K+ | Context database for AI Agents |
+
+---
+
+## Deployment Tools
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [1Panel](https://github.com/1Panel-dev/1Panel) | 34K+ | VPS control panel - deploy OpenClaw in one click |
+| [moltworker](https://github.com/cloudflare/moltworker) | 9K+ | Run OpenClaw on Cloudflare Workers |
+| [umbrel](https://github.com/getumbrel/umbrel) | 10K+ | Home server OS - run OpenClaw |
+| [openfang](https://github.com/RightNow-AI/openfang) | 14K+ | Agent Operating System |
 
 ---
 
@@ -84,15 +164,6 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 
 - [OpenClaw Official YouTube](https://youtube.com/@openclaw)
 - [Setup Tutorial Playlist](https://youtube.com/playlist?list=xxx)
-
----
-
-## Related Projects
-
-| Project | Description |
-|---------|-------------|
-| [Clawith](https://github.com/dataelement/Clawith) | OpenClaw for Teams - multi-agent collaboration |
-| [PSPDFKit](https://pspdfkit.com) | Founder's other project |
 
 ---
 

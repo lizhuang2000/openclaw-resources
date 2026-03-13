@@ -11,12 +11,13 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 - [Official Resources](#official-resources)
 - [Documentation](#documentation)
 - [Tutorials & Guides](#tutorials--guides)
-- [Related Projects & Variants](#related-projects--variants)
-- [Skills & Plugins](#skills--plugins)
-- [Memory & Storage](#memory--storage)
+- [Official Organization](#official-organization)
+- [Forks & Variants](#forks--variants)
+- [Lightweight Alternatives](#lightweight-alternatives)
+- [Memory & Skills](#memory--skills)
+- [IM/Chat Integrations](#imchat-integrations)
 - [Deployment Tools](#deployment-tools)
 - [Community](#community)
-- [Videos](#videos)
 - [Contributing](#contributing)
 
 ---
@@ -30,7 +31,6 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 | [Official Documentation](https://docs.openclaw.ai) | Full documentation |
 | [OpenClaw Blog](https://openclaw.ai/blog) | Announcements and updates |
 | [Installation Guide](https://openclaw.im) | Quick install instructions |
-| [ClawHub](https://github.com/openclaw/clawhub) | Skill Directory for OpenClaw |
 
 ---
 
@@ -64,106 +64,101 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 
 ---
 
-## Related Projects & Variants
+## Official Organization
 
-### Official & High Stars
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 307K+ | Official OpenClaw repository |
-| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 36K+ | 5,400+ skills collection |
-| [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | 24K+ | Community use cases |
-
-### Lightweight Alternatives
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [nanobot](https://github.com/HKUDS/nanobot) | 32K+ | Ultra-lightweight OpenClaw (~4K lines) |
-| [nanoclaw](https://github.com/qwibitai/nanoclaw) | 22K+ | Container-based lightweight alternative |
-| [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 26K+ | Rust-based, privacy-focused |
-| [ironclaw](https://github.com/nearai/ironclaw) | 9K+ | Rust implementation, privacy & security |
-
-### Multi-Agent & Enterprise
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [Clawith](https://github.com/dataelement/Clawith) | 160+ | OpenClaw for Teams |
-| [edict](https://github.com/cft0808/edict) | 8K+ | Multi-Agent Orchestration System (Chinese) |
-| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 5K+ | Multi-agent AI employee team |
-
-### IM/Chat Platform Integrations
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | 42K+ | WeChat integration (Chinese) |
-| [AstrBot](https://github.com/AstrBotDevs/AstrBot) | 22K+ | Multi-platform IM bot infrastructure |
-| [LangBot](https://github.com/langbot-app/LangBot) | 15K+ | Production-grade IM bot platform |
-| [open-im-server](https://github.com/openimsdk/open-im-server) | 15K+ | IM Chat OpenClaw |
-
-### Desktop & UI
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [AionUi](https://github.com/iOfficeAI/AionUi) | 18K+ | Desktop app for Claude Code, OpenClaw, etc. |
-| [cherry-studio](https://github.com/CherryHQ/cherry-studio) | 41K+ | AI productivity studio |
-| [cc-switch](https://github.com/farion1231/cc-switch) | 27K+ | Cross-platform desktop assistant |
-
-### Legacy Names (Historical)
-
-| Project | Description |
-|---------|-------------|
-| [clawdbot](https://github.com/openclaw/openclaw) | Original name (Nov 2025) |
-| [moltbot](https://github.com/openclaw/openclaw) | Second name (before Jan 2026) |
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| [openclaw](https://github.com/openclaw/openclaw) | 307K+ | Official repository |
+| [clawhub](https://github.com/openclaw/clawhub) | 5.6K+ | Skill Directory |
+| [skills](https://github.com/openclaw/skills) | 2.7K+ | All skills archived |
+| [lobster](https://github.com/openclaw/lobster) | 800+ | OpenClaw-native workflow shell |
+| [acpx](https://github.com/openclaw/acpx) | 880+ | Headless CLI client for ACP |
+| [nix-openclaw](https://github.com/openclaw/nix-openclaw) | 530+ | Nix packages |
+| [openclaw-ansible](https://github.com/openclaw/openclaw-ansible) | 490+ | Ansible + Tailscale VPN |
+| [openclaw.ai](https://github.com/openclaw/openclaw.ai) | 220+ | Official website |
 
 ---
 
-## Skills & Plugins
+## Forks & Variants
 
-### Official
-- [openclaw-plugins](https://github.com/openclaw/openclaw-plugins) - Official plugin collection
-- [clawhub](https://github.com/openclaw/clawhub) - Skill Directory
+### Chinese Community
 
-### Community Skills
-- [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - 5,400+ curated skills
-- [obsidian-skills](https://github.com/kepano/obsidian-skills) - Obsidian integration skills
-- [mcp-use](https://github.com/mcp-use/mcp-use) - MCP framework for OpenClaw
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| [openclaw-cn](https://github.com/jiulingyun/openclaw-cn) | 4.1K+ | DingTalk/Feishu/WeCom/QQ support |
+| [OpenClawChineseTranslation](https://github.com/1186258278/OpenClawChineseTranslation) | 3.1K+ | Chinese translation |
+| [awesome-openclaw-skills-zh](https://github.com/clawdbot-ai/awesome-openclaw-skills-zh) | 3K+ | Chinese skills library |
+| [OpenClawInstaller](https://github.com/miaoxworld/OpenClawInstaller) | 3K+ | One-click deployment |
+| [OpenClawChinese](https://github.com/MaoTouHU/OpenClawChinese) | 300+ | Chinese version |
+| [openclaw-learn](https://github.com/Tornadopp/openclaw-learn) | 230+ | Tutorials |
+
+### Managed Services
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| [DenchClaw](https://github.com/DenchHQ/DenchClaw) | 1.1K+ | Managed OpenClaw for CRM |
+| [atomicbot](https://github.com/AtomicBot-ai/atomicbot) | 120+ | Fastest way to run OpenClaw |
+| [Clawith](https://github.com/dataelement/Clawith) | 300+ | OpenClaw for Teams |
+
+### Desktop & GUI
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| [ClawX](https://github.com/ValueCell-ai/ClawX) | 4K+ | Desktop GUI for OpenClaw |
 
 ---
 
-## Memory & Storage
+## Lightweight Alternatives
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [memU](https://github.com/NevaMind-AI/memU) | 12K+ | Memory for 24/7 proactive agents |
-| [MemOS](https://github.com/MemTensor/MemOS) | 6K+ | AI memory OS for Agent systems |
-| [OpenViking](https://github.com/volcengine/OpenViking) | 7K+ | Context database for AI Agents |
+| [nanobot](https://github.com/HKUDS/nanobot) | 32K+ | Ultra-lightweight (~4K lines) |
+| [nanoclaw](https://github.com/qwibitai/nanoclaw) | 22K+ | Container-based, secure |
+| [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 26K+ | Rust-based, fast & autonomous |
+| [ironclaw](https://github.com/nearai/ironclaw) | 9.7K+ | Rust, privacy-focused |
+
+---
+
+## Memory & Skills
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 36K+ | 5,400+ curated skills |
+| [memU](https://github.com/NevaMind-AI/memU) | 12K+ | Memory for 24/7 agents |
+| [MemOS](https://github.com/MemTensor/MemOS) | 6.7K+ | AI memory OS |
+| [openclaw-master-skills](https://github.com/LeoYeAI/openclaw-master-skills) | 1.4K+ | 339+ best skills |
+
+---
+
+## IM/Chat Integrations
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | 42K+ | WeChat integration |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) | 22K+ | Multi-platform IM bot |
+| [LangBot](https://github.com/langbot-app/LangBot) | 15K+ | Production IM bot platform |
+| [open-im-server](https://github.com/openimsdk/open-im-server) | 15K+ | IM Chat infrastructure |
+| [secure-openclaw](https://github.com/ComposioHQ/secure-openclaw) | 1.3K+ | Secure personal assistant |
 
 ---
 
 ## Deployment Tools
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [1Panel](https://github.com/1Panel-dev/1Panel) | 34K+ | VPS control panel - deploy OpenClaw in one click |
-| [moltworker](https://github.com/cloudflare/moltworker) | 9K+ | Run OpenClaw on Cloudflare Workers |
-| [umbrel](https://github.com/getumbrel/umbrel) | 10K+ | Home server OS - run OpenClaw |
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| [1Panel](https://github.com/1Panel-dev/1Panel) | 34K+ | Deploy in one click |
+| [moltworker](https://github.com/cloudflare/moltworker) | 9.5K+ | Cloudflare Workers |
+| [umbrel](https://github.com/getumbrel/umbrel) | 10K+ | Home server OS |
 | [openfang](https://github.com/RightNow-AI/openfang) | 14K+ | Agent Operating System |
 
 ---
 
 ## Community
 
-- [Discord Server](https://discord.gg/openclaw) - Official community Discord
-- [GitHub Discussions](https://github.com/openclaw/openclaw/discussions) - Q&A and discussions
+- [Discord Server](https://discord.gg/openclaw) - Official Discord
+- [GitHub Discussions](https://github.com/openclaw/openclaw/discussions) - Q&A
 - [GitHub Issues](https://github.com/openclaw/openclaw/issues) - Bug reports
-- [Twitter/X](https://twitter.com/openclaw) - Official updates
-
----
-
-## Videos
-
-- [OpenClaw Official YouTube](https://youtube.com/@openclaw)
-- [Setup Tutorial Playlist](https://youtube.com/playlist?list=xxx)
+- [Twitter/X](https://twitter.com/openclaw) - Updates
 
 ---
 
@@ -172,17 +167,17 @@ OpenClaw is a free, open-source AI agent framework that connects AI models (Chat
 Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) first.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
 5. Open a Pull Request
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-*This is a community-maintained resource collection. Not affiliated with OpenClaw or its founders.*
+*This is a community-maintained resource collection. Not affiliated with OpenClaw.*
